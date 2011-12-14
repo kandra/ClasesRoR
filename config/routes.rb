@@ -1,4 +1,6 @@
 PrimeraApp::Application.routes.draw do
+  resources :assistants
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
